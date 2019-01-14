@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(HKMalloc
         #main.cpp
-        abc-1.cc)
+        test2.cc)

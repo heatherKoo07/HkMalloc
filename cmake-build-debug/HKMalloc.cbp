@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/hyunkyungkoo/Dropbox/Hyunkyung/DeAnza/Winter2019/CIS26B_AdvC/HKMalloc/abc-1.cc">
+		<Unit filename="/Users/hyunkyungkoo/Dropbox/Hyunkyung/DeAnza/Winter2019/CIS26B_AdvC/HKMalloc/test2.cc">
 			<Option target="HKMalloc"/>
 		</Unit>
 		<Unit filename="/Users/hyunkyungkoo/Dropbox/Hyunkyung/DeAnza/Winter2019/CIS26B_AdvC/HKMalloc/CMakeLists.txt">

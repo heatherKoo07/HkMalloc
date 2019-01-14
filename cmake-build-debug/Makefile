@@ -123,32 +123,32 @@ HKMalloc/fast:
 	$(MAKE) -f CMakeFiles/HKMalloc.dir/build.make CMakeFiles/HKMalloc.dir/build
 .PHONY : HKMalloc/fast
 
-abc-1.o: abc-1.cc.o
+test2.o: test2.cc.o
 
-.PHONY : abc-1.o
+.PHONY : test2.o
 
 # target to build an object file
-abc-1.cc.o:
-	$(MAKE) -f CMakeFiles/HKMalloc.dir/build.make CMakeFiles/HKMalloc.dir/abc-1.cc.o
-.PHONY : abc-1.cc.o
+test2.cc.o:
+	$(MAKE) -f CMakeFiles/HKMalloc.dir/build.make CMakeFiles/HKMalloc.dir/test2.cc.o
+.PHONY : test2.cc.o
 
-abc-1.i: abc-1.cc.i
+test2.i: test2.cc.i
 
-.PHONY : abc-1.i
+.PHONY : test2.i
 
 # target to preprocess a source file
-abc-1.cc.i:
-	$(MAKE) -f CMakeFiles/HKMalloc.dir/build.make CMakeFiles/HKMalloc.dir/abc-1.cc.i
-.PHONY : abc-1.cc.i
+test2.cc.i:
+	$(MAKE) -f CMakeFiles/HKMalloc.dir/build.make CMakeFiles/HKMalloc.dir/test2.cc.i
+.PHONY : test2.cc.i
 
-abc-1.s: abc-1.cc.s
+test2.s: test2.cc.s
 
-.PHONY : abc-1.s
+.PHONY : test2.s
 
 # target to generate assembly for a file
-abc-1.cc.s:
-	$(MAKE) -f CMakeFiles/HKMalloc.dir/build.make CMakeFiles/HKMalloc.dir/abc-1.cc.s
-.PHONY : abc-1.cc.s
+test2.cc.s:
+	$(MAKE) -f CMakeFiles/HKMalloc.dir/build.make CMakeFiles/HKMalloc.dir/test2.cc.s
+.PHONY : test2.cc.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... HKMalloc"
-	@echo "... abc-1.o"
-	@echo "... abc-1.i"
-	@echo "... abc-1.s"
+	@echo "... test2.o"
+	@echo "... test2.i"
+	@echo "... test2.s"
 .PHONY : help
 
 

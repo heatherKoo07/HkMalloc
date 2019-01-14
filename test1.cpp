@@ -4,7 +4,7 @@
 #include <cstdlib>
 #include <cstring>
 #include <unordered_map>
-#include "HKMalloc.h"
+#include "hkmalloc.h"
 
 void test_malloc(size_t num) {
     void* chunk = malloc(16*1024*1024);

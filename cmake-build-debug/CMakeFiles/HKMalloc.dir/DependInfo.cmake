@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/hyunkyungkoo/Dropbox/Hyunkyung/DeAnza/Winter2019/CIS26B_AdvC/HKMalloc/abc-1.cc" "/Users/hyunkyungkoo/Dropbox/Hyunkyung/DeAnza/Winter2019/CIS26B_AdvC/HKMalloc/cmake-build-debug/CMakeFiles/HKMalloc.dir/abc-1.cc.o"
+  "/Users/hyunkyungkoo/Dropbox/Hyunkyung/DeAnza/Winter2019/CIS26B_AdvC/HKMalloc/test2.cc" "/Users/hyunkyungkoo/Dropbox/Hyunkyung/DeAnza/Winter2019/CIS26B_AdvC/HKMalloc/cmake-build-debug/CMakeFiles/HKMalloc.dir/test2.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

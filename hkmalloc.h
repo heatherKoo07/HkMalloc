@@ -12,9 +12,9 @@
 
 using namespace std;
 
-class HKMalloc {
+class HkMalloc {
 public:
-    HKMalloc(void* ptr, size_t len);
+    HkMalloc(void* ptr, size_t len);
     void* malloc(size_t len);
     void free(void* ptr);
 
@@ -26,13 +26,13 @@ private:
 };
 
 
-HKMalloc::HKMalloc(void *ptr, size_t len) {
+HkMalloc::HkMalloc(void *ptr, size_t len) {
     this->len = len;
     freed_map.insert({this->len, ptr});
     freed_map_for_merge.insert({ptr, this->len});
 }
 
-void* HKMalloc::malloc(size_t len) {
+void* HkMalloc::malloc(size_t len) {
     void* p;
     auto eqIt = freed_map.find(len);
     auto upIt = freed_map.upper_bound(len);
@@ -53,14 +53,14 @@ void* HKMalloc::malloc(size_t len) {
     return p;
 }
 
-void HKMalloc::free(void *ptr) {
+void HkMalloc::free(void *ptr) {
     if (allocated_map.find(ptr) == allocated_map.end()) {
         cout << "Error! The pointer was not allocated.\n";
         return;
     }
     void* prevP = (char*)ptr-allocated_map[ptr];
     void* nextP = (char*)ptr+allocated_map[ptr];
-    auto prevIt = freed_map_for_merge.find(prevP);
+    auto prevIt = freed_map_for_merge.lower_bound(prevP);
     auto nextIt = freed_map_for_merge.find(nextP);
     pair <multimap<size_t,void*>::iterator, multimap<size_t,void*>::iterator> ret;
 

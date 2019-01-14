@@ -1,4 +1,6 @@
-#include "HKMalloc.h"
+#include "hkmalloc.h"
+
+//#include "dummy_malloc.h"
 
 #include "test_common.h"
 
@@ -10,9 +12,11 @@
 #include <unordered_map>
 #include <unordered_set>
 
+
+
 int rnd_alloc_test(size_t size) {
     void* chunk = malloc(size);
-    HKMalloc hk(chunk, size);
+    HkMalloc hk(chunk, size);
 
     std::unordered_map<void*, size_t> ptrs;
 
@@ -48,7 +52,7 @@ int rnd_alloc_test(size_t size) {
 
 int fragmentation_test(size_t size) {
     void* chunk = malloc(size);
-    HKMalloc hk(chunk, size);
+    HkMalloc hk(chunk, size);
 
     std::unordered_set<void*> ptrs;
 
@@ -63,7 +67,7 @@ int fragmentation_test(size_t size) {
         hk.free(ptr);
     }
 
-    void* ptr = hk.malloc(size - 0);
+    void* ptr = hk.malloc(size - 4096);
     CHK_NONNULL(ptr);
 
     free(chunk);
@@ -74,11 +78,11 @@ int fragmentation_test(size_t size) {
 int main(int argc, char** argv) {
     TestSuite ts(argc, argv);
 
-    const size_t CHUNK_SIZE = 128;
-    /*
+    const size_t CHUNK_SIZE = 16*1024*1024;
+
     ts.doTest( "random allocation test", rnd_alloc_test,
                TestRange<size_t>( {CHUNK_SIZE} ) );
-    */
+
     ts.doTest( "fragmentation test", fragmentation_test,
                TestRange<size_t>( {CHUNK_SIZE} ) );
 

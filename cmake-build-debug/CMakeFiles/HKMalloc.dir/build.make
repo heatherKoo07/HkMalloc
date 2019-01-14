@@ -57,27 +57,27 @@ include CMakeFiles/HKMalloc.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/HKMalloc.dir/flags.make
 
-CMakeFiles/HKMalloc.dir/abc-1.cc.o: CMakeFiles/HKMalloc.dir/flags.make
-CMakeFiles/HKMalloc.dir/abc-1.cc.o: ../abc-1.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hyunkyungkoo/Dropbox/Hyunkyung/DeAnza/Winter2019/CIS26B_AdvC/HKMalloc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HKMalloc.dir/abc-1.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HKMalloc.dir/abc-1.cc.o -c /Users/hyunkyungkoo/Dropbox/Hyunkyung/DeAnza/Winter2019/CIS26B_AdvC/HKMalloc/abc-1.cc
+CMakeFiles/HKMalloc.dir/test2.cc.o: CMakeFiles/HKMalloc.dir/flags.make
+CMakeFiles/HKMalloc.dir/test2.cc.o: ../test2.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hyunkyungkoo/Dropbox/Hyunkyung/DeAnza/Winter2019/CIS26B_AdvC/HKMalloc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HKMalloc.dir/test2.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HKMalloc.dir/test2.cc.o -c /Users/hyunkyungkoo/Dropbox/Hyunkyung/DeAnza/Winter2019/CIS26B_AdvC/HKMalloc/test2.cc
 
-CMakeFiles/HKMalloc.dir/abc-1.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HKMalloc.dir/abc-1.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hyunkyungkoo/Dropbox/Hyunkyung/DeAnza/Winter2019/CIS26B_AdvC/HKMalloc/abc-1.cc > CMakeFiles/HKMalloc.dir/abc-1.cc.i
+CMakeFiles/HKMalloc.dir/test2.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HKMalloc.dir/test2.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hyunkyungkoo/Dropbox/Hyunkyung/DeAnza/Winter2019/CIS26B_AdvC/HKMalloc/test2.cc > CMakeFiles/HKMalloc.dir/test2.cc.i
 
-CMakeFiles/HKMalloc.dir/abc-1.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HKMalloc.dir/abc-1.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hyunkyungkoo/Dropbox/Hyunkyung/DeAnza/Winter2019/CIS26B_AdvC/HKMalloc/abc-1.cc -o CMakeFiles/HKMalloc.dir/abc-1.cc.s
+CMakeFiles/HKMalloc.dir/test2.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HKMalloc.dir/test2.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hyunkyungkoo/Dropbox/Hyunkyung/DeAnza/Winter2019/CIS26B_AdvC/HKMalloc/test2.cc -o CMakeFiles/HKMalloc.dir/test2.cc.s
 
 # Object files for target HKMalloc
 HKMalloc_OBJECTS = \
-"CMakeFiles/HKMalloc.dir/abc-1.cc.o"
+"CMakeFiles/HKMalloc.dir/test2.cc.o"
 
 # External object files for target HKMalloc
 HKMalloc_EXTERNAL_OBJECTS =
 
-HKMalloc: CMakeFiles/HKMalloc.dir/abc-1.cc.o
+HKMalloc: CMakeFiles/HKMalloc.dir/test2.cc.o
 HKMalloc: CMakeFiles/HKMalloc.dir/build.make
 HKMalloc: CMakeFiles/HKMalloc.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hyunkyungkoo/Dropbox/Hyunkyung/DeAnza/Winter2019/CIS26B_AdvC/HKMalloc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable HKMalloc"

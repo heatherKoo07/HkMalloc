@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/HKMalloc.dir/abc-1.cc.o"
+  "CMakeFiles/HKMalloc.dir/test2.cc.o"
   "HKMalloc.pdb"
   "HKMalloc"
 )
