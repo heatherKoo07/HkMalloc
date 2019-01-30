@@ -8,7 +8,7 @@
 
 void test_malloc(size_t num) {
     void* chunk = malloc(16*1024*1024);
-    HKMalloc hk(chunk, 16*1024*1024);
+    HkMalloc hk(chunk, 16*1024*1024);
 
     std::unordered_map<void*, size_t> ptrs;
 
