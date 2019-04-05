@@ -6,25 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/hyunkyungkoo/Dropbox/Hyunkyung/DeAnza/Winter2019/CIS26B_AdvC/HKMalloc/hkmalloc_rev.h
+/Users/hyunkyungkoo/Dropbox/Hyunkyung/DeAnza/Winter2019/CIS26B_AdvC/HKMalloc/hkmalloc.h
 cstddef
--
-vector
--
-list
--
-iostream
 -
 utility
 -
-unordered_map
+map
 -
-math.h
+iostream
 -
 
 /Users/hyunkyungkoo/Dropbox/Hyunkyung/DeAnza/Winter2019/CIS26B_AdvC/HKMalloc/test2.cc
-hkmalloc_rev.h
-/Users/hyunkyungkoo/Dropbox/Hyunkyung/DeAnza/Winter2019/CIS26B_AdvC/HKMalloc/hkmalloc_rev.h
+hkmalloc.h
+/Users/hyunkyungkoo/Dropbox/Hyunkyung/DeAnza/Winter2019/CIS26B_AdvC/HKMalloc/hkmalloc.h
 test_common.h
 /Users/hyunkyungkoo/Dropbox/Hyunkyung/DeAnza/Winter2019/CIS26B_AdvC/HKMalloc/test_common.h
 stdio.h

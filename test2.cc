@@ -1,5 +1,5 @@
-//#include "hkmalloc.h"
-#include "hkmalloc_rev.h"
+#include "hkmalloc.h"
+//#include "hkmalloc_rev.h"
 //#include "dummy_malloc.h"
 
 #include "test_common.h"
